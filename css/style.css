@@ -152,6 +152,7 @@
 .quote {
   grid-column: 1 / -1;
   background: linear-gradient(135deg, #8844ee, #b07dfb);
+  box-shadow: 5px 5px 15px 0px rgb(44 44 44 / 15%);
   border-radius: 5px;
 }
 
@@ -168,6 +169,7 @@
 
 .attributes {
   background: linear-gradient(135deg, #8844ee, #b07dfb);
+  box-shadow: 5px 5px 15px 0px rgb(44 44 44 / 15%);
   border-radius: 5px;
   padding: 30px;
 }
