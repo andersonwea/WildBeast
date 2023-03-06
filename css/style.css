@@ -236,6 +236,15 @@
   }
 }
 
+@keyframes seta {
+  from {
+    right: 30px;
+  }
+  to {
+    right: 20px;
+  }
+}
+
 @media (max-width: 800px) {
   .main-grid {
     grid-template-columns: 100%;
@@ -252,7 +261,17 @@
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar;
-    padding: 0 20px;
+    padding: 20px 20px;
+    position: relative;
+  }
+
+  .side-nav::after {
+    content: '→';
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    color: rgba(0, 0, 0, 0.3);
+    animation: seta .5s ease-in 0s infinite alternate;
   }
 
   .side-nav  ul{
@@ -272,10 +291,6 @@
   .content {
     grid-template-columns: auto;
     gap: 16px;
-  }
-
-  .side-nav {
-    padding: 10px 0;
   }
 
   .side-nav ul {
