@@ -250,6 +250,8 @@
 
   .side-nav {
     overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
     padding: 0 20px;
   }
 
