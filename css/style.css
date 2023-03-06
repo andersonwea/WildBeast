@@ -261,7 +261,7 @@
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar;
-    padding: 20px 20px;
+    padding: 20px 0px;
     position: relative;
   }
 
