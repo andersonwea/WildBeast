@@ -269,4 +269,16 @@
     grid-template-columns: auto;
     gap: 16px;
   }
+
+  .side-nav {
+    padding: 10px 0;
+  }
+
+  .side-nav ul {
+    gap: 0;
+  }
+
+  .side-nav li a {
+    margin: 0 10px;
+  } 
 }
